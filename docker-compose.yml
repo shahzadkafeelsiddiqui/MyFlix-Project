@@ -1,0 +1,29 @@
+version: "3.8"
+services:
+  myflix-ui:
+    build: myflix-ui
+    container_name: myflix-ui_c
+
+    ports:
+
+     - '3000:3000'
+
+  # mongodb:
+  #   image : mongo
+  #   container_name: mongodb
+  #   environment:
+  #     - PUID=1000
+  #     - PGID=1000
+  #   ports:
+  #     - 27017:27017
+  #   restart: unless-stopped
+
+
+  # myflix-api:
+  #   build: myflix-api
+  #   container_name: myflix-api_c
+
+  #   ports:
+
+  #    - '27017:27017'
+
