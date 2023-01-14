@@ -3,10 +3,10 @@ services:
   myflix-ui:
     build: myflix-ui
     container_name: myflix-ui_c
-  
+
     ports:
 
-     - '3000:3000'
+     - '4000:4000'
 
 
   myflix-api:
