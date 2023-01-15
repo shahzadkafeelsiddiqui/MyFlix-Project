@@ -10,8 +10,8 @@ app.use(cors());
 app.use(express.json());
 
 mongoose
-  // .connect("mongodb://mongo:27017/MyFlix", {
-  .connect("mongodb://0.0.0.0:27017/MyFlix", {  
+  .connect("mongodb://mongo:27017/MyFlix", {
+  // .connect("mongodb://0.0.0.0:27017/MyFlix", {  
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
