@@ -1,4 +1,4 @@
-pipleline {
+pipeline {
 
     agent any
     stage ("Building the application") {
