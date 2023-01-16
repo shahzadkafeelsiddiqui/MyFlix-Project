@@ -4,8 +4,8 @@ pipeline {
     stages{
         stage ("Building the application") {
         steps {
-            sh 'docker compose up --build'
-            sh 'docker ps'
+            bat 'docker compose up --build'
+            bat 'docker ps'
         }
     }
 }
